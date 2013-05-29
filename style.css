@@ -15,10 +15,11 @@ body {
     position: relative;
 }
 .content__logo {
-    width: 191px;
     height: 70px;
     margin: 0 auto;
     display: block;
+    width: 280px;
+    height: 103px;
 }
 .content__img {
     width: 317px;
@@ -26,4 +27,13 @@ body {
     position: absolute;
     bottom: 0;
     left: 40%;
+}
+.b-content_comingSoon {
+    margin-left: 75px;
+    margin-bottom: 75px;
+    color: #006cc1;
+    font-size: 30px;
+    font-style: italic;
+    position: absolute;
+    bottom: 0;
 }

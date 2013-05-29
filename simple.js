@@ -17,6 +17,11 @@ $(document).ready(function(){
                 - $('.content__img').outerHeight())/2
         });
 
+        $('.b-content_comingSoon').css({
+            left: ($(document).width()
+                - $('.content__img').outerWidth())/2,
+        });
+
     });
 
     // To initially run the function:
